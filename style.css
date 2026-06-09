@@ -137,9 +137,12 @@ main {
 
 footer {
     background-color: #BF2626;
+    background-image: url("https://i.ibb.co/0sKdzBW/marvel-captura.jpg");
+    background-size: cover;
+    background-position: center;
     color: #ffffff;
     text-align: center;
-    padding: 20px;
+    padding: 50px 20px;
 }
 
 footer p {
