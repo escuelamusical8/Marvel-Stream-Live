@@ -1,0 +1,148 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+    background-color: #29355D;
+}
+
+header {
+    background-color: #000000;
+    background-image: url("https://i.ibb.co/0sKdzBW/marvel-captura.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: center;
+    padding: 15px 30px;
+    background-color: #BF2626;
+}
+
+.nombre-streamer {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+}
+
+nav ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: #F25D07;
+}
+
+.header-titulo {
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.header-titulo h1 {
+    color: #ffffff;
+    font-family: 'Oswald', sans-serif;
+    font-size: 60px;
+    margin: 0;
+}
+
+.header-titulo p {
+    color: #F25D07;
+    font-size: 20px;
+    margin: 10px;
+}
+
+main {
+    padding: 30px;
+}
+
+.seccion-evento {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+#imagen-evento {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.seccion-evento h2 {
+    color: #BF2626;
+    font-family: 'Oswald', sans-serif;
+}
+
+.seccion-evento p {
+    color: #29355D;
+}
+
+.seccion-evento a {
+    text-decoration: none;
+    background-color: #BF2626;
+    color: #ffffff;
+    padding: 12px 20px;
+    border-radius: 8px;
+    font-family: 'Oswald', sans-serif;
+}
+
+.seccion-evento a:hover {
+    background-color: #F25D07;
+}
+
+.seccion-patrocinadores {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.seccion-patrocinadores h2 {
+    color: #29355D;
+    font-family: 'Oswald', sans-serif;
+}
+
+.logos-patrocinadores {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 20px;
+    align-items: center;
+}
+
+.logos-patrocinadores img {
+    width: 100%;
+    height: auto;
+}
+
+footer {
+    background-color: #BF2626;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+}
